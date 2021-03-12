@@ -8,7 +8,7 @@ metadata:
     name: terminal-whisper-microservice
     namespace: microservices
 spec:
-    replicas: 3
+    replicas: 4
     selector:
         matchLabels:
             run: terminal-whisper-microservice
